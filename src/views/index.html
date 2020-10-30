@@ -1,0 +1,60 @@
+<!-- HTML = Hypertext Markup Language (HiperTexto Marcação e Linguagem) -->
+<!-- ID = IDENTIFICADOR UNICO, NÃO PODE REPETIR O NOME, USAR # PARA CONFIG -->
+
+<!DOCTYPE html> <!-- tag para começar o HTML -->
+<html lang="pt-br"> <!--lang é um atributo (vem depois das tags)-->
+
+<head> <!-- Cabeça do HTML (IMPORTANTE!)-->
+    
+    <meta charset="UTF-8"> <!-- corrigir acentos, sinais e etc-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#8257E5">
+    
+    <title>Proffy | Sua plataforma de estudos online</title>
+
+    <link rel="short icon" href="/images/favicon.png"> <!--Coloca icone pequeno no titulo-->
+
+    
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/partials/header.css">
+
+    
+    <link rel="stylesheet" href="styles/partials/page-landing.css">
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+
+
+</head>
+<body id="page-landing"> <!-- Corpo do HTML, todo conteúdo visivel (IMPORTANTE!) -->
+    
+    <div id="container">
+        <div class="logo-container">
+            <img src="/images/logo.svg" alt="Proffy">
+            <h2>Sua plataforma de estudos online</h2> <!-- TITULO GRANDE, VAI DO 1 AO 6-->
+        </div>
+
+        <img class = "hero-image" src="/images/landing.svg" alt="plataforma de estudos">
+        
+
+        <div class="buttons-container">
+            
+            <a class="study" href="/study" > 
+            <img src="/images/icons/study.svg" alt="Estudar">Estudar</a>
+            
+            <a class="give-classes" href="/give-classes"> 
+            <img src="/images/icons/give-classes.svg" alt="Dar aulas">Dar aulas</a> <!--linca um botão em outro elemento-->
+            
+        </div>
+
+        <p class="total-conection">
+            Total de 200 conexões já realizadas
+            <img src="/images/icons/purple-heart.svg" alt="Coração roxo">
+        </p>
+    </div>
+
+</body>
+</html>
